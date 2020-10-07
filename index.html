@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png" type="image/gif" sizes="32x32">
+    <title>Pizza Form</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Princeton Jeffries">
+    <meta name="description" content="Order Pizza">
+    <title>Pizza</title>
+</head>
+<body>
+    <h1>Princeton's Pizzas</h1>
+    <!-- input boxes -->
+    <div>
+        <fieldset>
+            <legend>User Information</legend>
+            <label for="name">User Name: </label>
+            <input type="text" id="name" name="user.name">
+            <br>
+            <label for="pass">Password: </label>
+            <input type="password" id="pass" name="password">
+        </fieldset>
+    </div>    
+    <!-- Radio Buttons -->
+    <div>
+        <fieldset>
+            <legend>What drink do you want?</legend>
+            <input type="radio" id="coke" name="choice">
+            <label for="coke">Coke</label>
+            <br>
+            <input type="radio" id="dtcoke" name="choice">
+            <label for="dtcoke">Diet Coke</label>
+            <br>
+            <input type="radio" id="sprite" name="choice">
+            <label for="sprite">Sprite</label>
+            <br>
+            <input type="radio" id="water" name="choice">
+            <label for="water">Water</label>
+        </fieldset>
+    </div>
+    <!-- Checkboxes -->
+    <div>
+        <fieldset>
+            <legend>Pizza Preference</legend>
+            <input type="checkbox" id="plain" name="plain">
+            <label for="checkbox">Plain</label>
+            <br>
+            <input type="checkbox" id="pepperoni" name="pepperoni">
+            <label for="checkbox">Pepperoni</label>
+            <br>
+            <input type="checkbox" id="chicken"name="chicken">
+            <label for="checkbox">Chicken</label>
+            <br>
+            <input type="checkbox" id="sausage" name="sausage">
+            <label for="checkbox">Sausage</label>
+        </fieldset>
+    </div>
+    <!-- Text area -->
+    <div>
+        <fieldset>
+            <legend>Special Instructions</legend>
+            <br>
+            <label for="textarea">Special Instructions:</label>
+            <br>
+            <textarea rows="10" cols="30"></textarea>
+            <!-- Submit Button -->
+            <br>
+            <button type="submit" id="submit" name="submit">
+            <label for="submit">Submit Your Order</label>
+        </fieldset>
+    </div>
+    
+</body>
+</html>
