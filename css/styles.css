@@ -22,3 +22,7 @@ img#chefP{
 h1#princeton{
     margin-top:50px;
 }
+a:link , a:visited, a:hover{
+    color:black;
+    text-decoration: none;
+}
