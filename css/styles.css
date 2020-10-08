@@ -10,4 +10,15 @@ body{
 img#pizza{
     border: lightgray 2px solid;
     margin-bottom:20px;
+    margin-top:30px;
+}
+img#chefP{
+        position: absolute;
+        top: 8px;
+        right: 500px;
+        height:100px;
+        width:70px;
+}
+h1#princeton{
+    margin-top:50px;
 }
