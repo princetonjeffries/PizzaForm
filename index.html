@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="logo.png" type="image/gif" sizes="32x32">
+    <link rel="icon" href="images/image.png"image/gif" sizes="32x32">
     <title>Pizza Form</title>
     <meta charset="utf-8">
     <meta name="author" content="Princeton Jeffries">
@@ -13,26 +13,26 @@
 </head>
 <body>
     <h1>Princeton's Pizzas</h1>
-    <img src="https://i.pinimg.com/originals/75/0e/a6/750ea6c63a69882e5a0f3892de04e9b4.jpg" height="300" width="600">
+    <img id="pizza"src="https://i.pinimg.com/originals/75/0e/a6/750ea6c63a69882e5a0f3892de04e9b4.jpg" height="300" width="600" title="pizza">
    
     
-    <form method="post" action="test.html"> 
+    <form method="post" action="test.html" autocomplete="off"> 
         <!-- input boxes -->
         <div class="input">
             <fieldset>
                 <legend>User Information</legend>
                 <label for="name">User Name: </label>
-                <input type="text" id="name" name="user.name">
+                <input type="text" id="name" name="user.name" required>
                 <br>
                 <label for="pass">Password: </label>
-                <input type="password" id="pass" name="password">
+                <input type="password" id="pass" name="password" required>
             </fieldset>
         </div>    
         <!-- Radio Buttons -->
         <div>
             <fieldset>
                 <legend>What drink do you want?</legend>
-                <input type="radio" id="coke" name="choice">
+                <input type="radio" id="coke" name="choice" required>
                 <label for="coke">Coke</label>
                 <br>
                 <input type="radio" id="dtcoke" name="choice">
@@ -47,7 +47,7 @@
         </div>
         <!-- Checkboxes -->
         <div>
-            <fieldset>
+            <fieldset required>
                 <legend>Pizza Preference</legend>
                 <input type="checkbox" id="plain" name="plain">
                 <label for="checkbox">Plain</label>
@@ -60,6 +60,20 @@
                 <br>
                 <input type="checkbox" id="sausage" name="sausage">
                 <label for="checkbox">Sausage</label>
+            </fieldset>
+        </div>
+        <!--Pizza Crusts-->
+        <div>
+            <fieldset>
+                <legend>Pizza Crust</legend>
+                <select>
+                    <option value="Regular">Regular</option>
+                    <option value="Pretzel">Pretzel</option>
+                    <option value="Garlic">Garlic</option>
+                    <option value="Stuffed">Stuffed Crust</option>
+                    <option value="TstdParm">Toasted Parmesan</option>
+                    
+                </select>
             </fieldset>
         </div>
         <!-- Text area -->
@@ -75,6 +89,7 @@
                 <input type="submit" value="Submit Your Order">
             </fieldset>
         </div>
+        
     </form>
     <link rel="script" href="js/script.js">
 </body>

@@ -7,6 +7,7 @@ body{
     background-color:#1a1a1d;
     color:white;
 }
-.input{
-
+img#pizza{
+    border: lightgray 2px solid;
+    margin-bottom:20px;
 }
