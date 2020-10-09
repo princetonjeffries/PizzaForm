@@ -1,11 +1,14 @@
 h1{
-    color:#950740;
+    color:white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body{
     text-align:center;
     background-color:#1a1a1d;
     color:white;
+    background-image:url(../images/background.png);
+    background-repeat: none;
+    background-size: contain;
 }
 img#pizza{
     border: lightgray 2px solid;
@@ -25,4 +28,28 @@ h1#princeton{
 a:link , a:visited, a:hover{
     color:black;
     text-decoration: none;
+}
+img#pep{
+    position: absolute;
+    top: 710px;
+    height:15px;
+    width: 15px;
+}
+img#cheese{
+    position: absolute;
+    top: 690px;
+    height:15px;
+    width: 15px;
+}
+img#hawaii{
+    position: absolute;
+    top: 730px;
+    height:15px;
+    width: 15px;
+}
+img#sausage{
+    position: absolute;
+    top: 750px;
+    height:15px;
+    width: 15px;
 }
